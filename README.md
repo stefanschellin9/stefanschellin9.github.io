@@ -10,4 +10,3 @@ View my github page here: https://stefanschellin9.github.io/
 - [ ] add a search bar
 - [ ] style the page
 - [ ] add javascript
-##  testing git
