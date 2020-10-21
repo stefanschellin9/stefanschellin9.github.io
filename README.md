@@ -1,5 +1,5 @@
 # stefanschellin9.github.io
-This is the github reposistory for my personal website that i am making into a portfolio. 
+This is the github reposistory for my personal website. 
 I am learning HTML, css and javascript while i am building this website
 ## links:
 View my github page here: https://stefanschellin9.github.io/
