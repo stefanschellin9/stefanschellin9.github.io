@@ -1,16 +1,59 @@
-.header img {
-  float: left;
-  width: 50px;
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100%;
+  height: 75px;
+  display: block;
+  background-color: #7f7f7f;
+}
+
+.inner-header {
+  width: 98%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+  background-color: #7f7f7f;
+}
+
+.logo-container {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo-container h1{
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.logo-container a{
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.github-container {
+  height: 100%;
+  display: table;
+  float: right;
+}
+
+.github-container a {
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.logo-container a img {
+  height: 75px;
+  width: 75px
+}
+
+.github-container a img {
   height: 50px;
-}
-
-.header h1 {
-  position: relative;
-  top: 10px;
-  left: 10px;
-}
-
-img {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
+  width: 50px
 }
