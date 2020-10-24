@@ -9,6 +9,7 @@ View my github page here: https://stefanschellin9.github.io/
 - [x] add a title with a href image
 - [x] add a header bar
 - [x] add a github logo with href to repository
+- [x] add a table for repositories info
 - [ ] add a navigation bar
 - [ ] add a search bar
 - [ ] style the page
