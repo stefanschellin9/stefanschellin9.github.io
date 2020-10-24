@@ -57,7 +57,18 @@
   height: 40px;
   width: 40px
 }
+table {
+  width: 1200px;
+}
 
-.data:hover {
+thead td {
+  font-weight: bold;
+}
+
+tbody td {
+  white-space: nowrap;
+}
+
+tbody tr:hover {
   background-color:  	rgb(235,235,235);
 }
