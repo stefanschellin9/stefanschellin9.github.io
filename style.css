@@ -5,14 +5,14 @@
 }
 
 .header {
-  width: 100%;
+  width: 1000px;
   height: 52px;
   display: block;
   border-bottom: 1px solid #000
 }
 
 .inner-header {
-  width: 98%;
+  width: 980px;
   height: 100%;
   display: block;
   margin: 0 auto;
@@ -58,7 +58,7 @@
   width: 40px
 }
 table {
-  width: 1200px;
+  width: 1000px;
 }
 
 thead td {
@@ -71,4 +71,10 @@ tbody td {
 
 tbody tr:hover {
   background-color:  	rgb(235,235,235);
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: blue;
+  }
 }
