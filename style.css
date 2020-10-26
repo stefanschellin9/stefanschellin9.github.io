@@ -11,74 +11,39 @@
   border-bottom: 1px solid #000
 }
 
-.inner-header {
-  width: 98%;
+table.webpage-logo {
   height: 100%;
-  display: block;
-  margin: 0 auto;
+  width: auto;
+  float: left;
 }
 
-.logo-container {
-    height: 100%;
-    display: table;
-    float: left;
-}
-
-.logo-container h2{
+table.octocat-logo {
   height: 100%;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.logo-container a{
-  height: 100%;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.github-container {
-  height: 100%;
-  display: table;
+  width: auto;
   float: right;
 }
 
-.github-container a {
-  height: 100%;
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.logo-container a img {
-  height: 40px;
-  width: 40px
-}
-
-.github-container a img {
-  height: 40px;
-  width: 40px
-}
-
-table {
+table.repos {
   width: 1200px;
 }
 
-thead td {
+table.repos thead td {
   font-weight: bold;
 }
 
-tbody td {
+table.repos tbody td {
   white-space: nowrap;
 }
 
-tbody tr:hover {
-  background-color:  	rgb(235,235,235);
+table.repos tbody tr:hover {
+  background-color: rgb(235,235,235);
 }
 
 @media only screen and (max-width: 1200px) {
-    table {
+    table.repos {
       width: 100%;
     }
-    td {
+    table.repos td {
       font-size: 1.35vw;
     }
 }
