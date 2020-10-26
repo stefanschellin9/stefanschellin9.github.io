@@ -34,6 +34,9 @@ table.repos thead td {
 table.repos tbody td {
   white-space: nowrap;
 }
+table.repos td {
+  font-size: 17px;
+}
 
 table.repos tbody tr:hover {
   background-color: rgb(235,235,235);
@@ -44,6 +47,6 @@ table.repos tbody tr:hover {
       width: 100%;
     }
     table.repos td {
-      font-size: 1.35vw;
+      font-size: 1.4vw;
     }
 }
