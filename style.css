@@ -60,23 +60,18 @@
 
 table {
   width: 100%;
+  max-width: 1200px;
 }
 
 thead td {
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 1vw;
 }
 
 tbody td {
-  font-size: 1.5vw;
+  font-size: 1vw;
 }
 
 tbody tr:hover {
   background-color:  	rgb(235,235,235);
-}
-
-@media screen and (max-width: 500px) {
-  body {
-
-  }
 }
