@@ -59,7 +59,7 @@
 }
 
 table {
-  width: 100%;
+  width: auto;
 }
 
 thead td {
@@ -69,6 +69,8 @@ thead td {
 
 tbody td {
   font-size: 1vw;
+  padding-right: 10px;
+  white-space: nowrap;
 }
 
 tbody tr:hover {
