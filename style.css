@@ -59,20 +59,27 @@
 }
 
 table {
-  width: auto;
+  width: 1200px;
 }
 
 thead td {
   font-weight: bold;
-  font-size: 1vw;
 }
 
 tbody td {
-  font-size: 1vw;
-  padding-right: 10px;
+  padding-right: 1vw;
   white-space: nowrap;
 }
 
 tbody tr:hover {
   background-color:  	rgb(235,235,235);
+}
+
+@media only screen and (max-width: 1200px) {
+    table {
+      width: 100%;
+    }
+    td {
+      font-size: 1.5vw;
+    }
 }
