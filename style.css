@@ -74,3 +74,9 @@ tbody td {
 tbody tr:hover {
   background-color:  	rgb(235,235,235);
 }
+
+@media screen and (max-width: 500px) {
+  body {
+
+  }
+}
