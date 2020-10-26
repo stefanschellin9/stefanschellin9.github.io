@@ -5,11 +5,8 @@ View my github page here: https://stefanschellin9.github.io/
 ## changelog:
 ### v1.0
 ## to do:
-- [x] add a title with a href image
-- [x] add a header bar
-- [x] add a github logo with href to repository
+- [x] add a title with logo
+- [x] add a header bar logo tables
+- [x] add a github logo with href to this repository
 - [x] add a table for repositories info
-- [ ] add a navigation bar
-- [ ] add a search bar
-- [ ] style the page
-- [ ] add javascript
+- [ ] add a page for all my Repositories
