@@ -43,6 +43,19 @@ table.repos tbody tr:hover {
   background-color: rgb(235,235,235);
 }
 
+li {
+  list-style: none;
+  display: inline;
+}
+
+li a {
+  color: black;
+  padding: 17px 8px;
+}
+
+li a:hover {
+  background-color: rgb(235,235,235);
+}
 @media only screen and (max-width: 1200px) {
     table.repos {
       width: 100%;
